@@ -1,0 +1,11 @@
+Pipes
+    - pipes are used to transform the output (|)
+    - inbuild pipes(eg: UpperCase, date, ...) See - https://angular.io/guide/pipes
+    - chain pipes (left to right ) -> value | date | UpperCase
+    - Argument Passing -> UpperCase:argument
+
+Create Pipe(custom pipe)
+    - ng g p pipeName
+    - contains transform method(value , arguments)
+    - to perform async process using async pipe
+    

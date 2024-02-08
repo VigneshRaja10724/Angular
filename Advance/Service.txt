@@ -1,0 +1,10 @@
+Service (manage data in a centrilized place)
+    - Sevice layer are used to make communication between the components instead of input, output, event emitter
+    - Can remove the duplicate codes / minimize the codes
+    - Variables/property are declared in the constructor
+    - Object creation are done in the provider section in various ways (hierarchy - mukiyathuvam)
+        - AppModule -> shares the instance to whoe AppModule
+        - Appcomponent -> Shares the instance to its child components
+        - Dependent component -> Shares inside of it
+    - if we need to inject a service inside a service use @injectable
+    -Events are emited and subscribed for customEvents
